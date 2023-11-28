@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run --privileged --name dind --rm -i docker:stable-dind /bin/ash
+docker run --privileged --rm -i docker:stable-dind /bin/ash
