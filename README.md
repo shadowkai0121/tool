@@ -1,5 +1,8 @@
 # tool
-
+## Windows
+```powershell
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/shadowkai0121/tool/master/start_windows.bat'))
+```
 ## Docker
 
 ### Ubuntu
