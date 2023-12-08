@@ -13,10 +13,11 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 
+user=$1
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose
 sudo groupadd docker
-sudo usermod -aG docker $USER
-groups $USER
+sudo usermod -aG docker $user
+groups $user
 
 echo $(docker --version)
 echo $(docker-compose --version)
