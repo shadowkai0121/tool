@@ -5,14 +5,14 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw
 ```
 ## Linux
 ```bash
-curl -s https://raw.githubusercontent.com/shadowkai0121/tool/master/setup_bash.sh | sudo bash
+curl -s https://raw.githubusercontent.com/shadowkai0121/tool/master/setup_bash.sh | bash
 ```
 
 ## Docker
 
 ### Ubuntu
 ```bash
-curl -s https://raw.githubusercontent.com/shadowkai0121/tool/master/ubuntu_docker_install.sh | sudo bash
+curl -s https://raw.githubusercontent.com/shadowkai0121/tool/master/ubuntu_docker_install.sh | sudo bash -s $USER
 ```
 
 ### Docker in Docker
